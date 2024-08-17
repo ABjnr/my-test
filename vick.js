@@ -33,7 +33,7 @@ submitBtn.addEventListener("click", function () {
 
 function alertMe() {
   if (confirm(`Hi baby, you will be redirected when you click "OK"`)) {
-    window.location.href = "../secondPage/vickPage2.html";
+    window.location.href = "vickPage2.html";
     console.log("move to next page");
   } else {
     onCancelAlert();
